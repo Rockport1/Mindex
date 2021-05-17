@@ -1,0 +1,38 @@
+http://localhost:8080/api/employee/b7839309-3348-463b-a7e3-5de1c168beb3
+http://localhost:8080/api/ReportingStructure/b7839309-3348-463b-a7e3-5de1c168beb3
+
+2
+http://localhost:8080/api/employee/03aa1462-ffa9-4978-901b-7c001562cf6f
+http://localhost:8080/api/ReportingStructure/03aa1462-ffa9-4978-901b-7c001562cf6f
+http://localhost:8080/api/compensation/03aa1462-ffa9-4978-901b-7c001562cf6f
+
+
+4
+http://localhost:8080/api/employee/16a596ae-edd3-4847-99fe-c4518e82c86f
+http://localhost:8080/api/ReportingStructure/16a596ae-edd3-4847-99fe-c4518e82c86f
+http://localhost:8080/api/compensation/16a596ae-edd3-4847-99fe-c4518e82c86f
+
+http://localhost:8080/api/compensation/16a596ae-edd3-4847-99fe-c4518e82c86f
+http://localhost:8080/api/employee/16a596ae-edd3-4847-99fe-c4518e82c86f
+
+{
+    "EmployeeId": "03aa1462-ffa9-4978-901b-7c001562cf6f"
+    "FirstName": "Erik"
+    "LastName": "Pet"
+    "Position": "cheese"
+    "Department": "abc"
+}
+
+{
+    "EmployeeId":"",
+    "Salary":123.45,
+    "EffectiveDate":"5/14/2021",
+    "Employee":
+	{ 
+	"EmployeeId": "",
+    	"FirstName": "Erik",
+    	"LastName": "Pet",
+    	"Position": "cheese",
+    	"Department": "abc"
+	}
+}
